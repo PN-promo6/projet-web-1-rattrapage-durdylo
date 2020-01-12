@@ -247,6 +247,7 @@ header h1 span {
 }
 
 .ctaProduct {
+  margin-bottom: 2%;
   font-weight: bold;
   padding: 5% 5%;
   background-color: #F5AA25;
@@ -327,7 +328,6 @@ p {
 .footer-container {
   display: flex;
   justify-content: space-around;
-  padding: 2%;
 }
 
 .title-footer {
@@ -378,7 +378,7 @@ p {
   margin: auto;
   border: 0;
   background-color: #F4AC2C;
-  padding: 4% 4.5%;
+  padding: 2% 2.5%;
   border-radius: 5px;
 }
 
