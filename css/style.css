@@ -32,7 +32,7 @@ h4 {
   font-weight: 700;
 }
 
-.colorOrange  {
+.colorOrange {
   color: #F5AA25;
 }
 
@@ -64,9 +64,11 @@ img {
   margin: 0 auto;
   position: fixed;
 }
-nav, .main-nav,footer{
+
+nav, .main-nav, footer {
   background-color: #0C0416;
 }
+
 /* Navigation */
 nav {
   margin: 0;
@@ -170,18 +172,20 @@ header h1 span {
 }
 
 /* text of resume website */
-.resumeWebSite{
+.resumeWebSite {
   margin: 2%;
 }
+
 .resumeWebSite h2 {
   text-align: center;
   font-weight: normal;
 }
 
 /* product row and products*/
-.product-row, .product,.textProduct,.favoriteMacaron,.ctaProduct  {
+.product-row, .product, .textProduct, .favoriteMacaron, .ctaProduct {
   display: flex;
 }
+
 .product-row {
   justify-content: space-between;
   margin: 2%;
@@ -222,12 +226,12 @@ header h1 span {
 
 .textProduct h3 {
   font-weight: normal;
-  margin: 0%
+  margin-top: 7%;
 }
 
 .price {
   margin: 0px;
-  padding: 4% 0%;
+  padding: 9% 0%;
   font-weight: bold;
 }
 
@@ -247,7 +251,7 @@ header h1 span {
 }
 
 .ctaProduct {
-  margin-bottom: 2%;
+  margin-bottom: 10%;
   font-weight: bold;
   padding: 5% 5%;
   background-color: #F5AA25;
@@ -324,7 +328,6 @@ p {
 }
 
 /* main footer */
-
 .footer-container {
   display: flex;
   justify-content: space-around;
@@ -334,15 +337,16 @@ p {
   margin: 8% 0%;
   color: #C8C8C8;
 }
-.about,.form,.referencing{
+
+.about, .form, .referencing {
   width: 30%
 }
-.text-footer a{
+
+.text-footer a {
   margin-bottom: 4%;
 }
+
 /* start of the form */
-
-
 .form form {
   padding: 16px 0;
   margin: 0 auto;
@@ -380,6 +384,10 @@ p {
   background-color: #F4AC2C;
   padding: 2% 2.5%;
   border-radius: 5px;
+}
+
+.about .text-footer {
+  line-height: 3rem;
 }
 
 .text-footer {
