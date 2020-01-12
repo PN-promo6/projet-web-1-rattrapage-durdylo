@@ -206,7 +206,7 @@ header h1 span {
 }
 
 .product .product-img img {
-  height: 86%;
+  height: 15vh;
   display: block;
   margin: 0 auto;
 }
